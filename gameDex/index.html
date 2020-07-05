@@ -20,9 +20,6 @@ Author URL: http://w3layouts.com
 <script>
   // Your web app's Firebase configuration
   function save(){
-      
-	var database=firebase.database();
-	var ref=database.ref('gameResponse');
 	var userName=document.getElementById("input-10").value;
 	var userEmailId=document.getElementById("input-11").value;
 	var userPhoneNo=document.getElementById("input-12").value;
@@ -49,6 +46,7 @@ Author URL: http://w3layouts.com
 <!--// bootstrap-css -->
 <!-- css -->
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/animation.css">
 <!--// css -->
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet">
@@ -146,6 +144,9 @@ Author URL: http://w3layouts.com
 									</ul>
 								</div>
 								<div class="clearfix"> </div>
+								<div id='stars'></div>
+								<div id='stars2'></div>
+								<div id='stars3'></div>
 								<script src="js/responsiveslides.min.js"></script>
 								<script>
 									// You can also use "$(window).load(function() {"
