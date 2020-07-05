@@ -1,4 +1,8 @@
 # GameDex
+Visit the below link to see our project<br>
+<a href = 'http://gamedex.netlify.app/'>Our project link </a><br>
+<br>
+Website files are in gameDex folder<br><br>
 GameDex is designed to catalogue and provide information regarding the various genres of Video Games featured on different video game platforms, critics rated and user rated.
 
 # Inspiration
