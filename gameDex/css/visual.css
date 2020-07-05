@@ -1,0 +1,114 @@
+.vis1,.vis2,.vis3,.table1,.table2{
+    text-align: center;
+}
+.vis1{
+    margin: 20px;
+}
+.visual{
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 20px;
+  }
+  .table1 tr:nth-child(even){background-color: #32758a;}
+  .table1 tr:nth-child(odd){background-color: #152b39;}
+  .table1 tr:hover {background-color: rgb(105, 8, 92);}
+  .table1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  .table1 {
+    border-collapse: collapse;
+    width: 70%;
+  }
+  .table1 td, .table1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .table1 tr{
+      color: white;
+      font-size: 20px;
+  }
+  #table1{
+      margin-bottom: 20xp;
+  }
+.socialIcon i{
+    font-size: 25px;
+}
+.socialIcon i:hover{
+    color: aqua;
+}
+.socialIcon li{
+    margin: 5px;
+}
+/* -------------Responsive----------------------- */
+
+@media only screen and (max-width: 600px){
+    
+    .table{
+      text-align: center;
+      margin-left:0;
+      margin-top: 12px;
+      width: 100%;
+    }
+    .table1 {
+      width: 100%;
+    }
+    .img1{
+        width: 100%;
+    }
+    .img2,.img3{
+        height: 250px;
+
+    }
+    #genre_pie{
+        text-align: center;
+        padding-right: 30%;
+    }
+    #visText{
+        font-size: 25px;
+    }
+    .table1 th {
+        padding:0;
+      }
+      .table1 td, .table1 th {
+        padding:0;
+      }
+  }
+  @media only screen and (max-width: 800px){
+
+    .table{
+      text-align: center;
+      margin-left:0;
+      margin-top: 12px;
+      width: 100%;
+    }
+    .table1 {
+      width: 100%;
+    }
+    .img1{
+        width: 100%;
+    }
+    .img2,.img3{
+        height: 250px;
+    }
+    #genre_pie{
+        text-align: center;
+        padding-right: 30%;
+    }
+    #visText{
+        font-size: 25px;
+    }
+    .table1 th {
+        padding: 0;
+      }
+      .table1 td, .table1 th {
+        padding:0;
+      }
+  }
